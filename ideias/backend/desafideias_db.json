@@ -1,0 +1,611 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "cpf": "111.111.111-11",
+      "nome": "Carlos Eduardo Silva",
+      "telefone": "(11) 98765-4321",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "PADRAO",
+      "tipo_usuario": "PACIENTE",
+      "criado_em": "2026-08-18T17:40:01.129Z"
+    },
+    {
+      "id": 2,
+      "cpf": "222.222.222-22",
+      "nome": "Dona Maria de Lourdes",
+      "telefone": "(11) 91234-5678",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "SIMPLIFICADO",
+      "tipo_usuario": "PACIENTE",
+      "criado_em": "2026-08-18T17:40:01.149Z"
+    },
+    {
+      "id": 3,
+      "cpf": "000.000.000-00",
+      "nome": "Administrador da Clínica",
+      "telefone": "(11) 99999-0000",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "PADRAO",
+      "tipo_usuario": "ADMIN",
+      "criado_em": "2026-08-18T17:40:01.164Z"
+    },
+    {
+      "id": 4,
+      "cpf": "333.333.333-33",
+      "nome": "Dra. Ana Paula Arcuri",
+      "telefone": "(11) 97777-1111",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "PADRAO",
+      "tipo_usuario": "MEDICO",
+      "criado_em": "2026-08-18T17:40:01.178Z"
+    },
+    {
+      "id": 5,
+      "cpf": "444.444.444-44",
+      "nome": "Dr. Roberto Santos",
+      "telefone": "(11) 97777-2222",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "PADRAO",
+      "tipo_usuario": "MEDICO",
+      "criado_em": "2026-08-18T17:40:01.295Z"
+    },
+    {
+      "id": 6,
+      "cpf": "555.555.555-55",
+      "nome": "Dra. Juliana Mendes",
+      "telefone": "(11) 97777-3333",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "PADRAO",
+      "tipo_usuario": "MEDICO",
+      "criado_em": "2026-08-18T17:40:01.411Z"
+    },
+    {
+      "id": 7,
+      "cpf": "666.666.666-66",
+      "nome": "Dr. Fernando Albuquerque",
+      "telefone": "(11) 97777-4444",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "PADRAO",
+      "tipo_usuario": "MEDICO",
+      "criado_em": "2026-08-18T17:40:01.562Z"
+    },
+    {
+      "id": 8,
+      "cpf": "777.777.777-77",
+      "nome": "Dra. Beatriz Fontana",
+      "telefone": "(11) 97777-5555",
+      "senha": "$2b$10$24pG5gqE7HB1V2UEhNS7reiTsFkiBCiL1cV9Nc84.40pFQVkbP8Gm",
+      "tipo_interface": "PADRAO",
+      "tipo_usuario": "MEDICO",
+      "criado_em": "2026-08-18T17:40:01.713Z"
+    }
+  ],
+  "especialidades": [
+    {
+      "id": 1,
+      "nome": "Cardiologia",
+      "descricao": "Cuidados com a saúde do coração e sistema cardiovascular."
+    },
+    {
+      "id": 2,
+      "nome": "Clínica Geral",
+      "descricao": "Atendimento médico preventivo, diagnóstico e encaminhamentos."
+    },
+    {
+      "id": 3,
+      "nome": "Pediatria",
+      "descricao": "Acompanhamento da saúde de bebês, crianças e adolescentes."
+    },
+    {
+      "id": 4,
+      "nome": "Ortopedia",
+      "descricao": "Diagnóstico e tratamento de lesões nos ossos e articulações."
+    },
+    {
+      "id": 5,
+      "nome": "Dermatologia",
+      "descricao": "Tratamentos e cuidados com a pele, cabelos e unhas."
+    },
+    {
+      "id": 6,
+      "nome": "Geriatria",
+      "descricao": "Atenção especializada à saúde e bem-estar do idoso."
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "usuario_id": 4,
+      "crm": "SP-123456",
+      "especialidade_id": 1,
+      "valor_consulta": 250
+    },
+    {
+      "id": 2,
+      "usuario_id": 5,
+      "crm": "SP-654321",
+      "especialidade_id": 2,
+      "valor_consulta": 150
+    },
+    {
+      "id": 3,
+      "usuario_id": 6,
+      "crm": "SP-789012",
+      "especialidade_id": 3,
+      "valor_consulta": 200
+    },
+    {
+      "id": 4,
+      "usuario_id": 7,
+      "crm": "SP-345678",
+      "especialidade_id": 4,
+      "valor_consulta": 220
+    },
+    {
+      "id": 5,
+      "usuario_id": 8,
+      "crm": "SP-901234",
+      "especialidade_id": 6,
+      "valor_consulta": 180
+    }
+  ],
+  "horarios_medico": [
+    {
+      "id": 1,
+      "medico_id": 1,
+      "dia_semana": "SEG",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 2,
+      "medico_id": 1,
+      "dia_semana": "SEG",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 3,
+      "medico_id": 1,
+      "dia_semana": "TER",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 4,
+      "medico_id": 1,
+      "dia_semana": "TER",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 5,
+      "medico_id": 1,
+      "dia_semana": "QUA",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 6,
+      "medico_id": 1,
+      "dia_semana": "QUA",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 7,
+      "medico_id": 1,
+      "dia_semana": "QUI",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 8,
+      "medico_id": 1,
+      "dia_semana": "QUI",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 9,
+      "medico_id": 1,
+      "dia_semana": "SEX",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 10,
+      "medico_id": 1,
+      "dia_semana": "SEX",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 11,
+      "medico_id": 2,
+      "dia_semana": "SEG",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 12,
+      "medico_id": 2,
+      "dia_semana": "SEG",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 13,
+      "medico_id": 2,
+      "dia_semana": "TER",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 14,
+      "medico_id": 2,
+      "dia_semana": "TER",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 15,
+      "medico_id": 2,
+      "dia_semana": "QUA",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 16,
+      "medico_id": 2,
+      "dia_semana": "QUA",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 17,
+      "medico_id": 2,
+      "dia_semana": "QUI",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 18,
+      "medico_id": 2,
+      "dia_semana": "QUI",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 19,
+      "medico_id": 2,
+      "dia_semana": "SEX",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 20,
+      "medico_id": 2,
+      "dia_semana": "SEX",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 21,
+      "medico_id": 3,
+      "dia_semana": "SEG",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 22,
+      "medico_id": 3,
+      "dia_semana": "SEG",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 23,
+      "medico_id": 3,
+      "dia_semana": "TER",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 24,
+      "medico_id": 3,
+      "dia_semana": "TER",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 25,
+      "medico_id": 3,
+      "dia_semana": "QUA",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 26,
+      "medico_id": 3,
+      "dia_semana": "QUA",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 27,
+      "medico_id": 3,
+      "dia_semana": "QUI",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 28,
+      "medico_id": 3,
+      "dia_semana": "QUI",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 29,
+      "medico_id": 3,
+      "dia_semana": "SEX",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 30,
+      "medico_id": 3,
+      "dia_semana": "SEX",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 31,
+      "medico_id": 4,
+      "dia_semana": "SEG",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 32,
+      "medico_id": 4,
+      "dia_semana": "SEG",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 33,
+      "medico_id": 4,
+      "dia_semana": "TER",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 34,
+      "medico_id": 4,
+      "dia_semana": "TER",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 35,
+      "medico_id": 4,
+      "dia_semana": "QUA",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 36,
+      "medico_id": 4,
+      "dia_semana": "QUA",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 37,
+      "medico_id": 4,
+      "dia_semana": "QUI",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 38,
+      "medico_id": 4,
+      "dia_semana": "QUI",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 39,
+      "medico_id": 4,
+      "dia_semana": "SEX",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 40,
+      "medico_id": 4,
+      "dia_semana": "SEX",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 41,
+      "medico_id": 5,
+      "dia_semana": "SEG",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 42,
+      "medico_id": 5,
+      "dia_semana": "SEG",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 43,
+      "medico_id": 5,
+      "dia_semana": "TER",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 44,
+      "medico_id": 5,
+      "dia_semana": "TER",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 45,
+      "medico_id": 5,
+      "dia_semana": "QUA",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 46,
+      "medico_id": 5,
+      "dia_semana": "QUA",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 47,
+      "medico_id": 5,
+      "dia_semana": "QUI",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 48,
+      "medico_id": 5,
+      "dia_semana": "QUI",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 49,
+      "medico_id": 5,
+      "dia_semana": "SEX",
+      "hora_inicio": "08:00:00",
+      "hora_fim": "12:00:00",
+      "duracao_minutos": 30
+    },
+    {
+      "id": 50,
+      "medico_id": 5,
+      "dia_semana": "SEX",
+      "hora_inicio": "14:00:00",
+      "hora_fim": "18:00:00",
+      "duracao_minutos": 30
+    }
+  ],
+  "agendamentos": [
+    {
+      "id": 1,
+      "paciente_id": 1,
+      "medico_id": 1,
+      "data_hora": "2026-08-24 09:00:00",
+      "tipo_pagamento": "PARTICULAR",
+      "carteirinha_convenio": null,
+      "status": "CANCELADO",
+      "anotacoes_medicas": null,
+      "criado_em": "2026-08-18T17:40:01.852Z",
+      "atualizado_em": "2026-08-18T17:40:01.878Z"
+    },
+    {
+      "id": 2,
+      "paciente_id": 1,
+      "medico_id": 1,
+      "data_hora": "2026-08-18 14:55:01",
+      "tipo_pagamento": "PARTICULAR",
+      "carteirinha_convenio": null,
+      "status": "AGENDADO",
+      "anotacoes_medicas": null,
+      "criado_em": "2026-08-18T17:40:01.861Z",
+      "atualizado_em": "2026-08-18T17:40:01.861Z"
+    }
+  ],
+  "fila_espera": [
+    {
+      "id": 1,
+      "paciente_id": 2,
+      "medico_id": 1,
+      "data_desejada": "2026-08-24",
+      "posicao_fila": 1,
+      "status": "EXPIRADO",
+      "horario_notificacao": "2026-08-18T16:30:01.896Z",
+      "criado_em": "2026-08-18T17:40:01.869Z"
+    },
+    {
+      "id": 2,
+      "paciente_id": 3,
+      "medico_id": 1,
+      "data_desejada": "2026-08-24",
+      "posicao_fila": 1,
+      "status": "NOTIFICADO",
+      "horario_notificacao": "2026-08-18T17:40:01.931Z",
+      "criado_em": "2026-08-18T17:40:01.904Z"
+    }
+  ],
+  "auto_increment": {
+    "usuarios": 9,
+    "especialidades": 7,
+    "medicos": 6,
+    "horarios_medico": 51,
+    "agendamentos": 3,
+    "fila_espera": 3
+  }
+}

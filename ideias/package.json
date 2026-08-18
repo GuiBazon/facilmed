@@ -1,0 +1,13 @@
+{
+  "name": "facilmed-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FácilMed — Sistema Inteligente de Agendamento de Consultas Médicas e Gestão Clínica",
+  "scripts": {
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:test": "npm --prefix backend run test",
+    "web": "npm --prefix web run dev",
+    "mobile": "npm --prefix mobile start"
+  }
+}
