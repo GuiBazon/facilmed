@@ -1,0 +1,21 @@
+{
+  "name": "facilmed-backend",
+  "version": "1.0.0",
+  "description": "Backend API para FácilMed - Sistema Inteligente de Agendamento de Consultas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node src/database/seed.js",
+    "test": "node test/businessRules.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.7"
+  }
+}
